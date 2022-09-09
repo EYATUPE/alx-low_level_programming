@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *  * main - Printing
+ *  * main - Esamu
  *   *
- *    * Return: always 0 (successful)
+ *    * Return: always 0 (Esamu is Succesful)
  *     */
 int main(void)
 {
