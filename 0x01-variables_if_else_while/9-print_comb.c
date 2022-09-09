@@ -1,9 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
 /**
- *
  * main - entry point
  *
  * Return: alway returns 0
@@ -12,6 +8,7 @@
 int main(void)
 {
 	int i;
+
 	for (i = 10; i < 20; i++)
 	{
 		putchar((i % 10) + '0');
