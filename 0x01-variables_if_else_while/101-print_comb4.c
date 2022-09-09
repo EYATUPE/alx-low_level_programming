@@ -1,12 +1,8 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
 /**
- *
  * main - entry point
  *
- * eturn: alway returns 0
+ * Return: always returns 0
  *
  */
 int main(void)
