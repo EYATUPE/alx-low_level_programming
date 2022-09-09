@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Return: alway returns 0
+ * Return: always returns 0
  *
  */
 int main(void)
@@ -29,4 +29,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}		
+}
