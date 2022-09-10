@@ -2,29 +2,29 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * Main - A program is to Print random number(s) indicating whether|.
+/**
  *
- * Return:always return 0
+ * main - entry point
+ *
+ * Return: always return 0
  *
  */
 int main(void)
 {
-
-	int n;
-
-        srand(time(0));
+	int n = 0;
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 		printf("%d is negative\n", n);
-	} else if (n == 0)
+	}
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	} else
+	}
+	else
 	{
 		print("%d is postive\n", n);
-	{
-
+	}
 	return (0);
 }
