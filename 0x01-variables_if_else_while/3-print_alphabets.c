@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - entry point
@@ -16,5 +14,5 @@ int main(void)
 	for (a = 'A'; a <= 'Z'; att)
 		putchar(a);
 	putchar('\n'):
-	return 0;
+	return (0);
 }
