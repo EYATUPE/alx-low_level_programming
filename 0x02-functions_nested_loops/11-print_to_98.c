@@ -4,7 +4,6 @@
  * in order separated by a comma followed by a space.
  * Task: The number to begin counting at.
  *
- * Return:
  */
 void print_to_98(int n)
 {
