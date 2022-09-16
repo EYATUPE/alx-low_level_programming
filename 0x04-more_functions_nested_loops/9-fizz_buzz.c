@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - prints the numbers from 1 to 100, But for multiples of 3
  * or for multiples of five to print fizzBuzz
  *
  * Return; returns 0
  */
-
 int main(void)
 {
 	int i;
