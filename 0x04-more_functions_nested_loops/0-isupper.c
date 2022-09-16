@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- *_isupper - uppercase of not
- *@c: character to be debugged
+ *_isupper - uppercase letters
+ *@c: character to check
  *
- *Return: either 1 or 0
+ *Return: 0 or 1
  */
 int _isupper(int c)
+
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
