@@ -1,16 +1,19 @@
 #include "main.h"
 
 /**
- *_isupper - checks if a character is uppercase of not
- *@c: character to be tested
- *Return; 1 whether it is, 0 otherwise
+ *_isupper -Uppercase of not
+ *@c: character to be debugged
+ *Return: Either 1 or 0
  */
 
 int _isupper(int c);
 {
-	if ((c >= 'A') && (c <= 'Z'))
+	if (c >= 'A') && (c <= 'Z')
 	{
 		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+		}
 }
