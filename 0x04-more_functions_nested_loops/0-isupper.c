@@ -5,7 +5,6 @@
  *@c: character to be debugged
  *Return: Either 1 or 0
  */
-
 int _isupper(int c);
 {
 	if (c >= 'A') && (c <= 'Z')
