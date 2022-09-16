@@ -1,31 +1,24 @@
-#include <stdio>
 #include "main.h"
 
 /**
  * print_square - prints squares
- * @size: parameter
+ * @size: Dimensions
  * Return: returns nothing
  */
 
 void print_square(int size)
 {
-	int inc1, inc2;
+	int width, heigh;
 
-	if (size > 0)
-	{
-		for (inc1 = 0; inc1 < size; inc1++)
-		{
-			for (inc2 = 0; inc2 < (size - 1); inc2++)
-			{
-				putchar('#');
-			}
-
-			putchar('#');
-			putchar('\n');
-		}
-	}
+	if (size <= 0)
+		_putchar('\n');
 	else
 	{
-		putchar('\n');
+		for (height = 0; height < size; height++)
+		{
+			for (width = 0; with < size; width++)
+				_putchar('#');
+			_putchar('\n');
+		}
 	}
 }
