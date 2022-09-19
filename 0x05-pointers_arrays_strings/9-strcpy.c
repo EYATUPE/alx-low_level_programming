@@ -5,7 +5,7 @@
  * _strcpy - To copy and paste a string
  * @dest: Destination to paste
  * @scr: Source of the text
- * Return: Esamu 
+ * Return: Esamu
  */
 
 char *_strcpy(char *dest, char *src)
