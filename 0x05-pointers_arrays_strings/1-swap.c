@@ -5,11 +5,9 @@
  *@b: second integer
  *Return: Always Esamu does his work on his own
  */
-
 void swap_int(int *a, int *b)
 {
-	int php = *a;
-	
+	int php = *a;	
 	*a = *b;
 	*b = php;
 }
