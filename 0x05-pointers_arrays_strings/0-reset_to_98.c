@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * reset_to_98
- * as parameter and updates the value it points to to 98
+ * reset_to_98 - resets  the value of a given integer
+ * @n: parameter
  *
- * Return: Always 0.
+ * Return: Always (C shouldnt scare me)
  */
 void reset_to_98(int *n)
 {
