@@ -3,9 +3,9 @@
 
 /**
  * _puts -  prints a string, followed by a new line
- * @str - string to be printed
+ * @str: string to be printed
  * Description: prints a string
- * Return: always Say Esamu Did it
+ * On success: returns no error
  */
 
 void _puts(char *str)
