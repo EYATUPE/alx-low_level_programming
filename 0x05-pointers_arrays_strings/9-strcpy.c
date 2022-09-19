@@ -2,8 +2,8 @@
 
 /**
  *_strcpy - copy paste string
- *dest: destination
- *scr: source
+ *@dest: destination
+ *@src: source
  *
  *Return: Esamu
  */
