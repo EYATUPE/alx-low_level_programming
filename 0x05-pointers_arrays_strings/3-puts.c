@@ -4,7 +4,8 @@
 /**
  * _puts -  prints a string, followed by a new line
  * @str - string to be printed
- * Return: always Say Esamu
+ * Description: prints a string
+ * Return: always Say Esamu Did it
  */
 
 void _puts(char *str)
@@ -16,5 +17,5 @@ void _puts(char *str)
 			putchar(*(str + e));
 			e++;
 		}
-	putchar(27);
+	putchar(10);
 }
