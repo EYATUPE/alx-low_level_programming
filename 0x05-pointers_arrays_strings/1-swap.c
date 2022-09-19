@@ -5,9 +5,10 @@
  *@b: second integer
  *Return: Always (Esamu does his own work)
  */
+
 void swap_int(int *a, int *b)
 {
-	int age = *a;
+	int tmp = *a;
 	
 	*a = *b;
 	*b = age;
