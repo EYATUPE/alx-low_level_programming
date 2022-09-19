@@ -8,7 +8,7 @@
  *
  *Return: Esamu
  */
-char *_strcpy(char *dest, char *src)
+char * strcpy(char *dest, char *src)
 {
 	int inc = 0;
 
