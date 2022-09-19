@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * reset_to_98
+ * as parameter and updates the value it points to to 98
  *
  * Return: Always 0.
  */
