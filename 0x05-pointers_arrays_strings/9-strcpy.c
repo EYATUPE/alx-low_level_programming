@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strcpy - To copy and paste a string
- * @dest: Destination to paste
- * @scr: Source of the text
- * Return: Esamu
+ *_strcpy - copy paste string
+ *@dest: destination to paste
+ *@scr: source of the text
+ *
+ *Return: Esamu
  */
 
 char *_strcpy(char *dest, char *src)
