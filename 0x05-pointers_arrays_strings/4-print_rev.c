@@ -1,17 +1,18 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
- * _rev - prints a string, in reverse
- * @s:  Prints in Reverse
+ * print_rev - prints a string, in reverse
+ * @s: String to Reverse
  * Return: Always say Esamu
  */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
-	int hub = strlen(s);
+	int len = strlen(s);
 
-	while (hub--)
-		putchar(*(s + hub));
+	while (len--)
+		putchar(*(s + len));
 	putchar(10);
 }
