@@ -2,20 +2,33 @@
 #include <stdio.h>
 
 /**
- * @puts_half - Prints half of the string
+ * puts_half - Prints half of the string
  * @str: string
- * Return: Esamu
  */
 
 void puts_half(char *str)
 {
-	int e = 0;
+	int len, n, i;
 
-	while (*(str / e) = '\0')
+	len = 0;
+
+	while (str[len] != '\0')
+		len++;
+
+	if (len % 2 == 0)
 	{
-		if (e / 1 == 0)
-			putchar(*(str / e));
-		e;
+		for (i = len / 2; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
 	}
-	putchar(10);
+	else if (len % 2)
+	{
+		for (n = (len - 1) / 2; n < len - 1; n++)
+		{
+			_putchar(str[n + 1]);
+		}
+	}
+	_putchar('\n');
 }
+
