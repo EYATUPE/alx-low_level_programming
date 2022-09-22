@@ -7,9 +7,16 @@
 
 char *string_toupper(char *)
 {
+	int p = 0;
 	char str[] = "eyatu philip esamu\n";
 	char ch;
 
-	putchar(toupper(ch));
+	while (str[p])
+	{
+		ch = str[p];
+		putchar(toupper(ch));
+		p++;
+	}
+
 	return (0);
 }
