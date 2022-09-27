@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_memcpy: - a function that copies memory area
- *@dest: where the memory area is to be pasted
- *@scr: Where the memory area is to be copied from
+ *_memcpy: - function that copies memory area
+ *@dest: memory area is to be pasted
+ *@src: memory area is to be copied from
  *@n: the number of the bytes to be copied
  *
  *Returns: - a pointer destination
