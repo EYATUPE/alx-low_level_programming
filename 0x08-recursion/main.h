@@ -18,4 +18,4 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 char _putchar (char);
 
-#endif /*My Main.h File*/
+#endif /*MAIN_H*/
