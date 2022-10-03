@@ -16,6 +16,7 @@ int is_prime_number(int n)
 }
 
 /**
+ * is_prime - returns 1 if n is prime
  * @n: number to be used and checked
  * @prime: a number to start checking from
  * Return: 1 if n is a prime number, 0 if otherwise
@@ -25,7 +26,7 @@ int is_prime(int n, int prime)
 {
 	if (prime <= 1)
 		return (1);
-	else if (n % start == 0)
+	else if (n % prime == 0)
 		return (0);
 	return (is_prime(n, prime - 1));
 }
