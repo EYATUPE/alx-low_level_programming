@@ -1,20 +1,31 @@
 #include "main.h"
 
 /**
- * wildcmp - function that compares two strings
- * @s1: String 1
- * @s2: String 2
- * Return: 1 or 0 if the string cant be considered
+ * is_prime_number - a function returns a prime integer
+ * @n: the number to be used
+ * Return: 1 if the input integer is a prime number otherwise return 0
  */
 
-int wildcmp(char *s1, char *s2)
+int is_prime_number(int n)
 {
-	if (*s2 == '\0')
-		return (*s1 == '\0');
-	if (*s2 == *s1)
-		return (*s1 != '\0' && wildcmp(s1 + 1, s2 + 1));
-	if (*s2 == '*')
-		return (wildcmp(s1, s2 + 1) || (*s1 != '\0' && wildcmp(s1 + 1, s2)));
-	return (0);
+	int prime = n / 2;
+
+	if (n <= 1)
+		return (0);
+	return (is_prime(n, prime));
 }
 
+/**
+ * @n: number to be used and checked
+ * @prime: a number to start checking from
+ * Return: 1 if n is a prime number, 0 if otherwise
+ */
+
+int is_prime(int n, int prime)
+{
+	if (prime <= 1)
+		return (1);
+	else if (n % start == 0)
+		return (0);
+	return (is_prime(n, prime - 1));
+}

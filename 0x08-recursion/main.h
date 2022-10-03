@@ -7,6 +7,7 @@
  * Void prototypes (void)
  */
 
+int is_prime(int n, int prime);
 void check(char *s, int start, int end, int *madam);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
