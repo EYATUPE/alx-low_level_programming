@@ -3,9 +3,10 @@
 
 /**
  * struct dog - a dogs basic info
- * @name: first member
- * @age: second member
- * @owner: third member
+ * @name: name
+ * @age: age
+ * @owner: owner
+ * Description: This Structure is for a poppy
  */
 
 struct dog
@@ -17,9 +18,8 @@ struct dog
 };
 
 /**
- * dog_d - typedef for struct dog
+ * Tools - Prototypes to use
  */
-
 typedef struct dog dog_t;
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
