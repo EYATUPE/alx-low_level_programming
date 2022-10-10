@@ -2,10 +2,10 @@
 
 /**
  * main - Prints the name of the file program was compiled From
-* Return:  the name of the file
-*/
+ * Return:  the name of the file
+ */
 
-char main(void)
+int main(void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
