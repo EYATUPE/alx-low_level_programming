@@ -1,7 +1,12 @@
 #include <stdio.h>
-#ifndef 2-main.c
-#define 2-main.c
 
-/* The fine name it was compiled from */
+/**
+ * main - Prints the name of the file program was compiled From
+* Return:  the name of the file
+*/
 
-#endif
+char main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
+}
