@@ -3,14 +3,14 @@
 
 /**
  * print_name - a function that prints a name.
- * @esamu: Name to be printed
+ * @name: Name to be printed
  * @f: The pointer to be used
  * Return: Print Name
  */
 
-void print_name(char *esamu, void (*f)(char *))
+void print_name(char *name, void (*f)(char *))
 {
-	if (!esamu || !f)
+	if (!name || !f)
 		return;
-	f(esamu);
+	f(name);
 }
