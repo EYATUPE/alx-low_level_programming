@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * _listint - a function that prints all the elements of a listint_t list.
+ * print_listint - a function that prints all the elements of a listint_t list.
  * @h: The node to be used
  * Return: Returning the number of nodes
  * Task 0
  */
 
-size_t print_listint(const listint_t *h)
+size_t print_listint(const list_t *h)
 {
-	const listint_t *tmp;
+	const list_t *tmp;
 	unsigned int e;
 
 	tmp = h;
