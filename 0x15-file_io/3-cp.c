@@ -40,7 +40,7 @@ int main(int ac, char **av)
 		}
 	}
 	check = close(fd); /*close file*/
-	f (check == -1)
+	if (check == -1)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd), exit(100);
 	check = close(fd_dest);
 	if (check == -1)
