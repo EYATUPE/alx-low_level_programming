@@ -8,5 +8,6 @@ Tasks
 4. 100, Write a function that sets the value of a bit to 0 at a given index.
 5. 101, Write a function that returns the number of bits you would need to flip to get from one number to another.
 9. Endianness, Write a function that checks the endianness.
+7. Crackme3, Find the password for this program.
 
 2 mandatory tasks
